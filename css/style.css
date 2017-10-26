@@ -259,6 +259,10 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   color: #000;
 }
 
+.main {
+  margin-top: 5vw;
+}
+
 .articles {
   display: flex;
   flex-flow: column;
