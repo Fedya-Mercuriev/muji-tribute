@@ -644,6 +644,7 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   display: flex;
   flex-flow: row;
   justify-content: space-around;
+  margin-bottom: 15vw;
 }
 
 .trending-item {
