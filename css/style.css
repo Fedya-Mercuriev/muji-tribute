@@ -714,8 +714,9 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
 }
 
 .subscribe {
-  padding: 10vw 0;
   width: 100%;
+  padding: 10vw 0;
+  margin-top: 15vw;
   background-color: #191919;
   text-align: center;
 }
@@ -729,6 +730,7 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
 .subscribe__subcribtion-form > input[type="email"] {
   padding: 10px 10px;
   border: 0;
+  border-radius: 0;
   background-color: #fff;
   font-size: 0.9rem;
 }
@@ -754,6 +756,7 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
 }
 
 footer {
+  text-align: center;
   margin: 0;
   background-color: #000000;
 }
@@ -765,6 +768,7 @@ footer {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 5vw;
 }
 
 .footer-navigation__link a {
@@ -773,4 +777,8 @@ footer {
   font-size: 1rem;
   color: #ffffff;
   text-decoration: none;
+}
+
+.copyright {
+  color: #ffffff;
 }
