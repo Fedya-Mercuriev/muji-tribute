@@ -659,12 +659,16 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 25vw;
+  width: 23vw;
   text-align: center;
 }
 
+.trending-item a {
+  text-decoration: none;
+}
+
 .trending-item__header {
-  width: 20vw;
+  width: 23vw;
   height: 17vw;
   background-color: #f0f0f0;
 }
@@ -675,5 +679,12 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
 }
 
 .trending-item__name {
+  margin: 0.5em 0;
   font-size: 0.8rem;
+  color: #000;
+}
+
+.trending-item__price {
+  font-size: 1rem;
+  color: #000;
 }
