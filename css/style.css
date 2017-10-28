@@ -620,7 +620,6 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   display: block;
   padding: 0 10vw;
   margin: 0;
-
   font-size: 1.75em;
 }
 
@@ -687,4 +686,34 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
 .trending-item__price {
   font-size: 1rem;
   color: #000;
+}
+
+.shop-now-block-bottom {
+  background-image: url("../img/bycicle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-now-block-bottom__content {
+  padding: 10vw 10vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.shop-now-block-bottom__content h3 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.shop-now-block-bottom__content p {
+  font-size: 1rem;
+}
+
+.shop-now-block-bottom__shop-link {
+  display: block;
+  width: 90px;
+  padding: 3vw 5vw;
+  background-color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
