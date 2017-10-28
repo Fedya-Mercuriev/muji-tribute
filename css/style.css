@@ -608,8 +608,8 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
 
 @supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
   .shop-now-block-content {
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(5px);
+    backdrop-filter: saturate(180%) blur(5px);
     background-color: rgba(255,255,255,0.7);
   }
 }
@@ -641,15 +641,16 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   color: #ffffff;
 }
 
-.trending-block {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.trending-block__headline {
+  order: 1;
+  display: block;
+  width: 100vw;
 }
 
-.tending-block__headline {
-  display: block;
+.trending-products {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
 }
 
 .trending-item {
