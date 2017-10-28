@@ -600,13 +600,13 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
+/* @supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
   .shop-now-block-content {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(255,255,255,0.7);
   }
-}
+} */
 
 .shop-now-block-content h3 {
   display: block;
@@ -780,5 +780,5 @@ footer {
 }
 
 .copyright {
-  color: #ffffff;
+  color: #5a5a5a;
 }
