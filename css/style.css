@@ -70,7 +70,7 @@ body {
   display: block;
   width: 100%;
   text-align: center;
-  background-color: inherit;
+  background-color: #fff;
 }
 
 .menu__item a {
