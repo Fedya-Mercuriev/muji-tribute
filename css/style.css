@@ -66,14 +66,6 @@ body {
   background-color: #fff;
 }
 
-@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
-  .navbar, .menu {
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255,255,255,0.7);
-  }
-}
-
 .menu__item {
   display: block;
   width: 100%;
@@ -95,6 +87,14 @@ body {
 
 .menu__item a:hover {
   color: #6b6b6b;
+}
+
+@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
+  .navbar, .menu, .menu__item {
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255,255,255,0.7);
+  }
 }
 
 .search-button--show-search-form {
