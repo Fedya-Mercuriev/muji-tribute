@@ -78,7 +78,7 @@ body {
   list-style-type: none;
   width: 100%;
   padding: 0;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   border: 0;
   margin: 0;
   background-color: #fff;
@@ -235,13 +235,13 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   cursor: pointer;
 }
 
-@supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
+/* @supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
   .navbar {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(255,255,255,0.7);
   }
-}
+}*/
 
 .cart {
   order: 3;
