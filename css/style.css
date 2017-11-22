@@ -577,7 +577,7 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   text-align: center;
 }
 
-.radio-buttons::after {
+/*.radio-buttons::after {
   content: "";
   order: 2;
   display: inline-block;
@@ -589,7 +589,7 @@ cubic-bezier(0.07, 0.14, 0.17, 0.93);
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+*/
 .radio-buttons__all-categories {
   order: 1;
   color: #000000;
